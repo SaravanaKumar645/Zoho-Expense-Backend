@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon app.js",
     "client": "cd .. && cd front-end && npm run dev",
-    "server": "concurrently \"npm run dev\" \"npm run client\""
+    "server": "concurrently \"npm run dev\" \"npm run client\"",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
